@@ -1,8 +1,17 @@
 # example-airflow
 Airflow is a platform to programmatically author, schedule and monitor workflows.
 
+## Scalable
+airflow has a modular architecture and uses a message queue to orchestrate an arbitrary number of workers. Airflow is ready to scale to infinity.
+## Dynamic
+Airflow pipelines are defined in Python, allowing for dynamic pipeline generation. This allows for writing code that instantiates pipelines dynamically.
+## Extensible
+Easily define your own operators and extend libraries to fit the level of abstraction that suits your environment.S
+## Elegant
+Airflow pipelines are lean and explicit. Parametrization is built into its core using the powerful Jinja templating engine.
 
-##  Initializing Environment
+
+#  Initializing Environment
 Before starting Airflow for the first time, You need to prepare your environment, i.e. create the necessary files, directories and initialize the database.
 
 # Setting the right Airflow user
@@ -29,11 +38,4 @@ Now you can start all services:
 
 
 
-## Scalable
-airflow has a modular architecture and uses a message queue to orchestrate an arbitrary number of workers. Airflow is ready to scale to infinity.
-## Dynamic
-Airflow pipelines are defined in Python, allowing for dynamic pipeline generation. This allows for writing code that instantiates pipelines dynamically.
-## Extensible
-Easily define your own operators and extend libraries to fit the level of abstraction that suits your environment.S
-## Elegant
-Airflow pipelines are lean and explicit. Parametrization is built into its core using the powerful Jinja templating engine.
+
